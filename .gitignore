@@ -97,7 +97,11 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+<<<<<<< HEAD
 
+=======
+.vs/
+>>>>>>> aa5c538 (добавлены gittgnore)
 # Chutzpah Test files
 _Chutzpah*
 
