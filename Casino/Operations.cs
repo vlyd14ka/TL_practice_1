@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿//todo: изучить
 namespace Casino;
-internal class Operations
+internal enum Operation
 {
+    Initial = 0,
+    Play = 1,
+    CheckBalance = 2,
+    Exit = 3,
 }
