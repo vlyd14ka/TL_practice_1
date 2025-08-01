@@ -30,12 +30,12 @@ public static class FighterFactory
     }
     private static void PrintFighterStats( Fighter f )
     {
-        Console.WriteLine( $"\nИмя: {f.Name}" );
-        Console.WriteLine( $"Раса: {f.Race.Name}" );
-        Console.WriteLine( $"Оружие: {f.Weapon.Name} (урон: {f.Weapon.Damage})" );
-        Console.WriteLine( $"Броня: {f.Armor.Name} (защита: {f.Armor.DefenseDamage})" );
-        Console.WriteLine( $"Полная сила: {f.CalculateDamage()}" );
-        Console.WriteLine( $"Здоровье: {f.MaxHealth}" );
+        Console.WriteLine( $"\nName: {f.Name}" );
+        Console.WriteLine( $"Race: {f.Race.Name}" );
+        Console.WriteLine( $"Weapon: {f.Weapon.Name} (damage: {f.Weapon.Damage})" );
+        Console.WriteLine( $"Armor: {f.Armor.Name} (armor: {f.Armor.DefenseDamage})" );
+        Console.WriteLine( $"AllDamage: {f.CalculateDamage()}" );
+        Console.WriteLine( $"Health: {f.MaxHealth}" );
     }
 
     public static IRace ChooseRace()

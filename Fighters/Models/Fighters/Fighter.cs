@@ -43,11 +43,11 @@ public class Fighter: IFighter
         if ( isCrit )
         {
             absolutelyDamage *= 3;
-            Console.WriteLine( $"{Name} нанес критический удар!" );
+            Console.WriteLine( $"{Name} attacks with crit!" );
         }
         else
         {
-            Console.WriteLine( $"{Name} нанес обычный удар." );
+            Console.WriteLine( $"{Name} attacks default." );
         }
 
         return (int)absolutelyDamage;
@@ -64,7 +64,7 @@ public class Fighter: IFighter
             CurrentHealth = 0;
         }
 
-        Console.WriteLine( $"{Name} получил {actualDamage} урона . Осталось HP: {CurrentHealth}" );
+        Console.WriteLine( $"{Name} received {actualDamage} damage .  HP: {CurrentHealth}" );
     }
 
 }
